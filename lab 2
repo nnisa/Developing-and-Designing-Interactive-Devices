@@ -1,0 +1,330 @@
+Last login: Wed Feb  7 16:46:45 on ttys000
+dhcp-nyc-935:assignment0 noshin$ ssh pi@interactive-device-design-2.tech.cornell.edu -p 122[00]  
+Bad port '122[00]'
+dhcp-nyc-935:assignment0 noshin$ ssh pi@interactive-device-design-2.tech.cornell.edu -p 12248  
+ssh: connect to host interactive-device-design-2.tech.cornell.edu port 12248: Operation timed out
+dhcp-nyc-935:assignment0 noshin$ ssh pi@interactive-device-design-2.tech.cornell.edu -p 122[00]  
+Bad port '122[00]'
+dhcp-nyc-935:assignment0 noshin$ ssh pi@interactive-device-design-2.tech.cornell.edu -p 12248  
+ssh: connect to host interactive-device-design-2.tech.cornell.edu port 12248: Operation timed out
+dhcp-nyc-935:assignment0 noshin$ ssh pi@interactive-device-design-2.tech.cornell.edu -p 12248
+ssh: connect to host interactive-device-design-2.tech.cornell.edu port 12248: Operation timed out
+dhcp-nyc-935:assignment0 noshin$ ssh pi@interactive-device-design-2.tech.cornell.edu -p 12248
+^C
+dhcp-nyc-935:assignment0 noshin$ ssh pi@ixe[00].local  
+^C
+dhcp-nyc-935:assignment0 noshin$ ssh pi@ixe48.local  
+ssh: Could not resolve hostname ixe48.local: nodename nor servname provided, or not known
+dhcp-nyc-935:assignment0 noshin$ ssh pi@ixe48.local
+ssh: Could not resolve hostname ixe48.local: nodename nor servname provided, or not known
+dhcp-nyc-935:assignment0 noshin$ ping ixe48.local
+ping: cannot resolve ixe48.local: Unknown host
+dhcp-nyc-935:assignment0 noshin$ ping ixe48
+PING ixe48 (192.168.1.54): 56 data bytes
+64 bytes from 192.168.1.54: icmp_seq=0 ttl=64 time=318.645 ms
+64 bytes from 192.168.1.54: icmp_seq=1 ttl=64 time=31.165 ms
+64 bytes from 192.168.1.54: icmp_seq=2 ttl=64 time=10.458 ms
+64 bytes from 192.168.1.54: icmp_seq=3 ttl=64 time=24.534 ms
+64 bytes from 192.168.1.54: icmp_seq=4 ttl=64 time=68.806 ms
+64 bytes from 192.168.1.54: icmp_seq=5 ttl=64 time=113.217 ms
+64 bytes from 192.168.1.54: icmp_seq=6 ttl=64 time=161.725 ms
+64 bytes from 192.168.1.54: icmp_seq=7 ttl=64 time=231.034 ms
+64 bytes from 192.168.1.54: icmp_seq=8 ttl=64 time=250.680 ms
+64 bytes from 192.168.1.54: icmp_seq=9 ttl=64 time=5.726 ms
+64 bytes from 192.168.1.54: icmp_seq=10 ttl=64 time=6.522 ms
+64 bytes from 192.168.1.54: icmp_seq=11 ttl=64 time=7.891 ms
+64 bytes from 192.168.1.54: icmp_seq=12 ttl=64 time=107.142 ms
+64 bytes from 192.168.1.54: icmp_seq=13 ttl=64 time=7.750 ms
+64 bytes from 192.168.1.54: icmp_seq=14 ttl=64 time=7.186 ms
+64 bytes from 192.168.1.54: icmp_seq=15 ttl=64 time=23.873 ms
+64 bytes from 192.168.1.54: icmp_seq=16 ttl=64 time=9.431 ms
+64 bytes from 192.168.1.54: icmp_seq=17 ttl=64 time=47.808 ms
+64 bytes from 192.168.1.54: icmp_seq=18 ttl=64 time=72.086 ms
+64 bytes from 192.168.1.54: icmp_seq=19 ttl=64 time=110.463 ms
+Request timeout for icmp_seq 20
+64 bytes from 192.168.1.54: icmp_seq=21 ttl=64 time=8.125 ms
+64 bytes from 192.168.1.54: icmp_seq=22 ttl=64 time=22.167 ms
+64 bytes from 192.168.1.54: icmp_seq=23 ttl=64 time=18.294 ms
+64 bytes from 192.168.1.54: icmp_seq=24 ttl=64 time=8.390 ms
+64 bytes from 192.168.1.54: icmp_seq=25 ttl=64 time=28.177 ms
+64 bytes from 192.168.1.54: icmp_seq=26 ttl=64 time=54.017 ms
+Request timeout for icmp_seq 27
+64 bytes from 192.168.1.54: icmp_seq=28 ttl=64 time=180.479 ms
+64 bytes from 192.168.1.54: icmp_seq=29 ttl=64 time=216.865 ms
+64 bytes from 192.168.1.54: icmp_seq=30 ttl=64 time=9.041 ms
+Request timeout for icmp_seq 31
+^C
+--- ixe48 ping statistics ---
+33 packets transmitted, 29 packets received, 12.1% packet loss
+round-trip min/avg/max/stddev = 5.726/74.541/318.645/86.789 ms
+dhcp-nyc-935:assignment0 noshin$ ssh pi@ixe48
+The authenticity of host 'ixe48 (192.168.1.54)' can't be established.
+ECDSA key fingerprint is SHA256:Y9S4oMH2H70fz3K/L42Kw39k+zkpyfr0DmGdzBx7SKk.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'ixe48,192.168.1.54' (ECDSA) to the list of known hosts.
+pi@ixe48's password: 
+Linux ixe48 4.9.59-v7+ #1047 SMP Sun Oct 29 12:19:23 GMT 2017 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Tue Feb  6 23:25:58 2018
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+pi@ixe48:~ $ ls
+Desktop    Downloads  mjpg-streamer  node_tests  Public        simple-ChatBot  Templates
+Documents  helloYou   Music          Pictures    python_games  sketchbook      Videos
+pi@ixe48:~ $ cd sketchbook/blink
+pi@ixe48:~/sketchbook/blink $ ls
+blink.ino  build-uno  makefile
+pi@ixe48:~/sketchbook/blink $ blink.ino  build-uno  makefile
+-bash: blink.ino: command not found
+pi@ixe48:~/sketchbook/blink $ make upload
+-------------------------
+Arduino.mk Configuration:
+- [AUTODETECTED]       CURRENT_OS = LINUX 
+- [USER]               ARDUINO_DIR = /usr/share/arduino 
+- [COMPUTED]           ARDMK_DIR = /usr/share/arduino (relative to Common.mk)
+- [AUTODETECTED]       ARDUINO_VERSION = 105 
+- [DEFAULT]            ARCHITECTURE =  
+- [DEFAULT]            ARDMK_VENDOR = arduino 
+- [AUTODETECTED]       ARDUINO_PREFERENCES_PATH = /home/pi/.arduino/preferences.txt 
+- [DEFAULT]            ARDUINO_SKETCHBOOK = /home/pi/sketchbook 
+- [BUNDLED]            AVR_TOOLS_DIR = /usr/share/arduino/hardware/tools/avr (in Arduino distribution)
+- [COMPUTED]           ARDUINO_LIB_PATH = /usr/share/arduino/libraries (from ARDUINO_DIR)
+- [COMPUTED]           ARDUINO_VAR_PATH = /usr/share/arduino/hardware/arduino//variants (from ARDUINO_DIR)
+- [COMPUTED]           BOARDS_TXT = /usr/share/arduino/hardware/arduino//boards.txt (from ARDUINO_DIR)
+- [DEFAULT]            USER_LIB_PATH = /home/pi/sketchbook/libraries (in user sketchbook)
+- [DEFAULT]            PRE_BUILD_HOOK = pre-build-hook.sh 
+- [USER]               BOARD_TAG = uno 
+- [COMPUTED]           CORE = arduino (from build.core)
+- [COMPUTED]           VARIANT = standard (from build.variant)
+- [COMPUTED]           OBJDIR = build-uno (from BOARD_TAG)
+- [COMPUTED]           ARDUINO_CORE_PATH = /usr/share/arduino/hardware/arduino//cores/arduino (from ARDUINO_DIR, BOARD_TAG and boards.txt)
+- [ASSUMED]            MONITOR_BAUDRATE = 9600 
+- [DEFAULT]            OPTIMIZATION_LEVEL = s 
+- [DEFAULT]            MCU_FLAG_NAME = mmcu 
+- [DEFAULT]            CFLAGS_STD = -std=gnu11 -flto -fno-fat-lto-objects 
+- [DEFAULT]            CXXFLAGS_STD = -std=gnu++11 -fno-threadsafe-statics -flto 
+- [COMPUTED]           DEVICE_PATH = /dev/ttyUSB0 (from MONITOR_PORT)
+- [DEFAULT]            FORCE_MONITOR_PORT =  
+- [AUTODETECTED]       Size utility: AVR-aware for enhanced output
+- [COMPUTED]           BOOTLOADER_PARENT = /usr/share/arduino/hardware/arduino//bootloaders (from ARDUINO_DIR)
+- [COMPUTED]           ARDMK_VERSION = 1.5 
+- [COMPUTED]           CC_VERSION = 4.9.2 (avr-gcc)
+-------------------------
+mkdir -p build-uno
+make reset
+make[1]: Entering directory '/home/pi/sketchbook/blink'
+/usr/bin/ard-reset-arduino  /dev/ttyUSB0
+make[1]: Leaving directory '/home/pi/sketchbook/blink'
+make do_upload
+make[1]: Entering directory '/home/pi/sketchbook/blink'
+/usr/share/arduino/hardware/tools/avr/../avrdude -q -V -p atmega328p -C /usr/share/arduino/hardware/tools/avr/../avrdude.conf -D -c arduino -b 115200 -P /dev/ttyUSB0 \
+		-U flash:w:build-uno/blink.hex:i
+
+avrdude: AVR device initialized and ready to accept instructions
+avrdude: Device signature = 0x1e950f (probably m328p)
+avrdude: reading input file "build-uno/blink.hex"
+avrdude: writing flash (914 bytes):
+avrdude: 914 bytes of flash written
+
+avrdude: safemode: Fuses OK (E:00, H:00, L:00)
+
+avrdude done.  Thank you.
+
+make[1]: Leaving directory '/home/pi/sketchbook/blink'
+pi@ixe48:~/sketchbook/blink $ cd ~/sketchbook/helloYouSketch/
+pi@ixe48:~/sketchbook/helloYouSketch $ make upload
+-------------------------
+Arduino.mk Configuration:
+- [AUTODETECTED]       CURRENT_OS = LINUX 
+- [USER]               ARDUINO_DIR = /usr/share/arduino 
+- [COMPUTED]           ARDMK_DIR = /usr/share/arduino (relative to Common.mk)
+- [AUTODETECTED]       ARDUINO_VERSION = 105 
+- [DEFAULT]            ARCHITECTURE =  
+- [DEFAULT]            ARDMK_VENDOR = arduino 
+- [AUTODETECTED]       ARDUINO_PREFERENCES_PATH = /home/pi/.arduino/preferences.txt 
+- [DEFAULT]            ARDUINO_SKETCHBOOK = /home/pi/sketchbook 
+- [BUNDLED]            AVR_TOOLS_DIR = /usr/share/arduino/hardware/tools/avr (in Arduino distribution)
+- [COMPUTED]           ARDUINO_LIB_PATH = /usr/share/arduino/libraries (from ARDUINO_DIR)
+- [COMPUTED]           ARDUINO_VAR_PATH = /usr/share/arduino/hardware/arduino//variants (from ARDUINO_DIR)
+- [COMPUTED]           BOARDS_TXT = /usr/share/arduino/hardware/arduino//boards.txt (from ARDUINO_DIR)
+- [DEFAULT]            USER_LIB_PATH = /home/pi/sketchbook/libraries (in user sketchbook)
+- [DEFAULT]            PRE_BUILD_HOOK = pre-build-hook.sh 
+- [USER]               BOARD_TAG = uno 
+- [COMPUTED]           CORE = arduino (from build.core)
+- [COMPUTED]           VARIANT = standard (from build.variant)
+- [COMPUTED]           OBJDIR = build-uno (from BOARD_TAG)
+- [COMPUTED]           ARDUINO_CORE_PATH = /usr/share/arduino/hardware/arduino//cores/arduino (from ARDUINO_DIR, BOARD_TAG and boards.txt)
+- [DETECTED]           MONITOR_BAUDRATE = 9600  (in sketch)
+- [DEFAULT]            OPTIMIZATION_LEVEL = s 
+- [DEFAULT]            MCU_FLAG_NAME = mmcu 
+- [DEFAULT]            CFLAGS_STD = -std=gnu11 -flto -fno-fat-lto-objects 
+- [DEFAULT]            CXXFLAGS_STD = -std=gnu++11 -fno-threadsafe-statics -flto 
+- [COMPUTED]           DEVICE_PATH = /dev/ttyUSB0 (from MONITOR_PORT)
+- [DEFAULT]            FORCE_MONITOR_PORT =  
+- [AUTODETECTED]       Size utility: AVR-aware for enhanced output
+- [COMPUTED]           BOOTLOADER_PARENT = /usr/share/arduino/hardware/arduino//bootloaders (from ARDUINO_DIR)
+- [COMPUTED]           ARDMK_VERSION = 1.5 
+- [COMPUTED]           CC_VERSION = 4.9.2 (avr-gcc)
+-------------------------
+mkdir -p build-uno
+make reset
+make[1]: Entering directory '/home/pi/sketchbook/helloYouSketch'
+/usr/bin/ard-reset-arduino  /dev/ttyUSB0
+make[1]: Leaving directory '/home/pi/sketchbook/helloYouSketch'
+make do_upload
+make[1]: Entering directory '/home/pi/sketchbook/helloYouSketch'
+/usr/share/arduino/hardware/tools/avr/../avrdude -q -V -p atmega328p -C /usr/share/arduino/hardware/tools/avr/../avrdude.conf -D -c arduino -b 115200 -P /dev/ttyUSB0 \
+		-U flash:w:build-uno/helloYouSketch.hex:i
+
+avrdude: AVR device initialized and ready to accept instructions
+avrdude: Device signature = 0x1e950f (probably m328p)
+avrdude: reading input file "build-uno/helloYouSketch.hex"
+avrdude: writing flash (2108 bytes):
+avrdude: 2108 bytes of flash written
+
+avrdude: safemode: Fuses OK (E:00, H:00, L:00)
+
+avrdude done.  Thank you.
+
+make[1]: Leaving directory '/home/pi/sketchbook/helloYouSketch'
+pi@ixe48:~/sketchbook/helloYouSketch $ cd helloYou/
+-bash: cd: helloYou/: No such file or directory
+pi@ixe48:~/sketchbook/helloYouSketch $ ls
+build-uno  helloYouSketch.ino  makefile
+pi@ixe48:~/sketchbook/helloYouSketch $ ls
+build-uno  helloYouSketch.ino  makefile
+pi@ixe48:~/sketchbook/helloYouSketch $ cd ..
+pi@ixe48:~/sketchbook $ ls
+Arduino.mk  blink  helloYouSketch
+pi@ixe48:~/sketchbook $ cd helloYouSketch/
+pi@ixe48:~/sketchbook/helloYouSketch $ cd
+pi@ixe48:~ $ cd helloYou/
+pi@ixe48:~/helloYou $ ls
+helloYouSketch.ino  node_modules  nohup.out  package.json  package-lock.json  public  README.md  server.js
+pi@ixe48:~/helloYou $ node server.js /dev/ttyUSB0
+listening on *:8000
+Data: light
+a user connected
+ledON
+ledOFF
+ledON
+ledOFF
+ledON
+ledOFF
+ledON
+ledOFF
+Data: dark
+Data: light
+Data: dark
+Data: light
+Data: dark
+Data: light
+ledOFF
+ledON
+ledOFF
+ledON
+ledOFF
+ledON
+Data: dark
+Data: light
+Data: dark
+Data: light
+ledON
+ledOFF
+ledON
+ledON
+ledON
+^C
+pi@ixe48:~/helloYou $ cd
+pi@ixe48:~ $ git clone https://github.com/**_YourUserName_**/distant-pictures.git
+Cloning into 'distant-pictures'...
+fatal: unable to access 'https://github.com/**_YourUserName_**/distant-pictures.git/': The requested URL returned error: 400
+pi@ixe48:~ $ cd distant-pictures
+-bash: cd: distant-pictures: No such file or directory
+pi@ixe48:~ $ cd distant-pictures
+-bash: cd: distant-pictures: No such file or directory
+pi@ixe48:~ $ ls
+Desktop    Downloads  mjpg-streamer  node_tests  Public        simple-ChatBot  Templates
+Documents  helloYou   Music          Pictures    python_games  sketchbook      Videos
+pi@ixe48:~ $ git clone https://github.com/nnisa/distant-pictures.git
+Cloning into 'distant-pictures'...
+remote: Counting objects: 49, done.
+remote: Compressing objects: 100% (32/32), done.
+remote: Total 49 (delta 21), reused 39 (delta 16), pack-reused 0
+Unpacking objects: 100% (49/49), done.
+pi@ixe48:~ $ cd distant-pictures
+pi@ixe48:~/distant-pictures $ npm install
+
+> uws@0.14.5 install /home/pi/distant-pictures/node_modules/uws
+> node-gyp rebuild > build_log.txt 2>&1 || exit 0
+
+
+> serialport@6.0.5 install /home/pi/distant-pictures/node_modules/serialport
+> prebuild-install || node-gyp rebuild
+
+prebuild-install info begin Prebuild-install version 2.5.0
+prebuild-install info looking for local prebuild @ prebuilds/serialport-v6.0.5-node-v59-linux-arm.tar.gz
+prebuild-install info looking for cached prebuild @ /home/pi/.npm/_prebuilds/https-github.com-node-serialport-node-serialport-releases-download-v6.0.5-serialport-v6.0.5-node-v59-linux-arm.tar.gz
+prebuild-install http request GET https://github.com/node-serialport/node-serialport/releases/download/v6.0.5/serialport-v6.0.5-node-v59-linux-arm.tar.gz
+prebuild-install http 404 https://github.com/node-serialport/node-serialport/releases/download/v6.0.5/serialport-v6.0.5-node-v59-linux-arm.tar.gz
+prebuild-install WARN install No prebuilt binaries found (target=9.4.0 runtime=node arch=arm platform=linux)
+make: Entering directory '/home/pi/distant-pictures/node_modules/serialport/build'
+  CXX(target) Release/obj.target/serialport/src/serialport.o
+  CXX(target) Release/obj.target/serialport/src/serialport_unix.o
+  CXX(target) Release/obj.target/serialport/src/poller.o
+  SOLINK_MODULE(target) Release/obj.target/serialport.node
+  COPY Release/serialport.node
+make: Leaving directory '/home/pi/distant-pictures/node_modules/serialport/build'
+added 258 packages in 88.996s
+pi@ixe48:~/distant-pictures $ node pictureServer.js /dev/ttyUSB0
+listening on *:8000
+Data: light
+a user connected
+making a making a picture atThuFeb082018132047GMT0500EST
+making a making a picture atThuFeb082018132054GMT0500EST
+making a making a picture atThuFeb082018132102GMT0500EST
+making a making a picture atThuFeb082018132113GMT0500EST
+^C
+pi@ixe48:~/distant-pictures $ node pictureServer.js /dev/ttyUSB0
+listening on *:8000
+Data: light
+Data: dark
+Data: light
+Data: dark
+Data: light
+Data: dark
+Data: light
+a user connected
+Data: dark
+Data: light
+Data: dark
+Data: light
+Data: dark
+Data: light
+Data: dark
+Data: light
+Data: dark
+Data: light
+Data: dark
+Data: light
+Data: dark
+Data: light
+Data: dark
+Data: light
+Data: dark
+Data: light
+Data: dark
+Data: light
+Data: dark
+Data: light
+user disconnected
+packet_write_wait: Connection to 192.168.1.54 port 22: Broken pipe
+dhcp-nyc-935:assignment0 noshin$ 
